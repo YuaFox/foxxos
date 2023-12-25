@@ -36,10 +36,6 @@ sudo umount $ISODIR
 echo 'correcting permissions...'
 chmod 755 -R $ISODIR_WRITE
 
-echo 'installing packages'
-mkdir foxxos.proton
-cp -r /home/$USER/.steam/steam/steamapps/common/Proton\ 8.0/* patch/opt/foxxos.proton
-
 echo 'copying files...'
 cp preseed.cfg $ISODIR_WRITE/preseed.cfg
 tar -cf patch.tar -C patch .

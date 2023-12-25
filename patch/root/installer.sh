@@ -3,7 +3,7 @@ USER=$(ls /home)
 
 echo "deb http://ftp.debian.org/debian stable main contrib non-free" > /etc/apt/sources.list
 apt update
-apt install -y curl git
+apt install -y wget curl git
 
 # DE
 apt install -y kde-standard plasma-nm
@@ -32,5 +32,11 @@ apt install -y chromium
 # Game Apps
 apt install -y steam lutris
 
+# Install proton
+wget -O /root/proton.tar.gz https://yua.sh/foxxos/proton.tar.gz
+mkdir /opt/foxxos.proton
+tar -xf /root/proton.tar.gz -C /opt/foxxos.proton
+
 # Merge user data
-cp -rT /home/user /home/$USER
+cp -rT /home_temp/user /home/$USER
+chown -R $USER:$USER /home/$USER
