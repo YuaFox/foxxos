@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=FoxxosProton
+Comment=Proton distributed with foxxos
+Exec=bash /bin/proton
+Type=Application
+Categories=Utility
+MimeType=application/x-ms-dos-executable

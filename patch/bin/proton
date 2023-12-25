@@ -1,0 +1,5 @@
+#!/bin/bash
+export STEAM_COMPAT_DATA_PATH=~/.local/share/foxxos/protondata
+export STEAM_COMPAT_CLIENT_INSTALL_PATH=~/.local/share/foxxos/protondata
+
+/opt/foxxos.proton/proton run $1

@@ -1,0 +1,7 @@
+debian-iso
+debian-iso-rw
+irmod
+*.iso
+*.tar
+
+patch/opt/*
