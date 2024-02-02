@@ -3,4 +3,6 @@ live-config
 live-config-systemd
 systemd-sysv
 calamares
+calamares-settings-foxxos
+pkexec
 foxxos-system
