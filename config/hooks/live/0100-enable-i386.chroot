@@ -1,1 +1,3 @@
-/usr/share/live/build/hooks/live/0050-disable-sysvinit-tmpfs.hook.chroot
+#!/bin/sh
+dpkg --add-architecture i386
+apt update
