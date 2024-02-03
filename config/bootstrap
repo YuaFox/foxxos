@@ -4,10 +4,10 @@
 LB_ARCHITECTURE="amd64"
 
 # Select distribution to use
-LB_DISTRIBUTION="testing"
+LB_DISTRIBUTION="foxxos"
 
 # Select parent distribution to use
-LB_PARENT_DISTRIBUTION=""
+LB_PARENT_DISTRIBUTION="testing"
 
 # Select distribution to use in the chroot
 LB_DISTRIBUTION_CHROOT="testing"

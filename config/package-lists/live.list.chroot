@@ -6,3 +6,13 @@ calamares
 calamares-settings-foxxos
 pkexec
 foxxos-system
+firefox-esr
+
+firmware-amd-graphics
+libgl1-mesa-dri
+libglx-mesa0
+mesa-vulkan-drivers
+xserver-xorg-video-all
+libglx-mesa0:i386
+mesa-vulkan-drivers:i386
+libgl1-mesa-dri:i386
