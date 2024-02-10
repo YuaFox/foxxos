@@ -53,13 +53,13 @@ LB_BUILD_WITH_CHROOT="true"
 LB_DEBIAN_INSTALLER="none"
 
 # Set debian-installer suite
-LB_DEBIAN_INSTALLER_DISTRIBUTION="testing"
+LB_DEBIAN_INSTALLER_DISTRIBUTION=""
 
 # Set debian-installer preseed filename/url
 LB_DEBIAN_INSTALLER_PRESEEDFILE=""
 
 # Toggle use of GUI debian-installer
-LB_DEBIAN_INSTALLER_GUI="true"
+LB_DEBIAN_INSTALLER_GUI=""
 
 # Set hdd label
 LB_HDD_LABEL="DEBIAN_LIVE"
@@ -80,7 +80,7 @@ LB_ISO_PREPARER="live-build @LB_VERSION@; https://salsa.debian.org/live-team/liv
 LB_ISO_PUBLISHER="Yua; http://yua.sh"
 
 # Set iso volume (max 32 chars)
-LB_ISO_VOLUME="Debian testing @ISOVOLUME_TS@"
+LB_ISO_VOLUME="Foxxos @ISOVOLUME_TS@"
 
 # Set jffs2 eraseblock size
 LB_JFFS2_ERASEBLOCK=""
