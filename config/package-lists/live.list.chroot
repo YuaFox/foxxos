@@ -8,6 +8,11 @@ pkexec
 foxxos-system
 firefox-esr
 
+dkms
+linux-headers-generic
+
+firmware-realtek
+
 firmware-amd-graphics
 libgl1-mesa-dri
 libglx-mesa0

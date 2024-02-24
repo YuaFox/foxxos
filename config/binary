@@ -53,13 +53,13 @@ LB_BUILD_WITH_CHROOT="true"
 LB_DEBIAN_INSTALLER="none"
 
 # Set debian-installer suite
-LB_DEBIAN_INSTALLER_DISTRIBUTION=""
+LB_DEBIAN_INSTALLER_DISTRIBUTION="foxxos"
 
 # Set debian-installer preseed filename/url
 LB_DEBIAN_INSTALLER_PRESEEDFILE=""
 
 # Toggle use of GUI debian-installer
-LB_DEBIAN_INSTALLER_GUI=""
+LB_DEBIAN_INSTALLER_GUI="true"
 
 # Set hdd label
 LB_HDD_LABEL="DEBIAN_LIVE"
