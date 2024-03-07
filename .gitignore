@@ -5,3 +5,6 @@
 !Makefile
 
 !.gitignore
+
+!build.sh
+!README.md

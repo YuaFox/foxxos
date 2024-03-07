@@ -8,6 +8,9 @@ pkexec
 foxxos-system
 firefox-esr
 
+flatpak
+plasma-discover-backend-flatpak
+
 dkms
 linux-headers-generic
 
